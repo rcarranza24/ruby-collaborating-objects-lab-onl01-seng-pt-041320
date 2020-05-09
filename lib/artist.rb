@@ -18,7 +18,7 @@ class Artist
   end
 
   def self.all      #class method all returns all instances of Artist class
-    @@all
+    @@all << self 
   end
 
   def self.find_or_create_by_name(name)   #class method uses find/create class
