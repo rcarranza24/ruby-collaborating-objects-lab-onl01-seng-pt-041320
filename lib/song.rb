@@ -7,7 +7,7 @@ class Song
      @artist = []
    end
 
-   def self.all
+   def Song.all
      @@all
    end
 
