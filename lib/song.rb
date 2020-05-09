@@ -5,7 +5,7 @@ class Song
      @name = name
    end
 
-   def songs.all
+   def song.all
      @@all
    end
     def self.new_by_filename(file)
